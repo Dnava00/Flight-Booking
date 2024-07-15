@@ -1,4 +1,4 @@
-package domain;
+package booking.flight.flight_booking.domain;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -31,6 +31,6 @@ public class Ticket {
     private LocalDateTime eventTime; 
 
     @ManyToOne
-    @JoinColumn(name = "User_ticker")
+    @JoinColumn(name = "User_ticket")
     private User user;
 }

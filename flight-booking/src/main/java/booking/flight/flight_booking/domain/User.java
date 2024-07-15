@@ -1,4 +1,4 @@
-package domain;
+package booking.flight.flight_booking.domain;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
